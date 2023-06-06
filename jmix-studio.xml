@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="IgnoredChangelogIncludeConfig">
+    <datastore-include-infos>
+      <datastore-include-info datastore-name="main" />
+    </datastore-include-infos>
+  </component>
+  <component name="JmixDataStoreSettingsManager">
+    <moduleSettings>
+      <entry key="com.company.flow-bpmn-sample.main">
+        <ModuleSettings>
+          <option name="dataStoreOptionsV2">
+            <map>
+              <entry key="main">
+                <value>
+                  <DataStoreSettingsV2 />
+                </value>
+              </entry>
+            </map>
+          </option>
+        </ModuleSettings>
+      </entry>
+    </moduleSettings>
+  </component>
+  <component name="JmixLiquibaseChangesConfig">
+    <exclude-change idName="FK_RES_POLICY_ROLE" tagName="dropForeignKeyConstraint" />
+    <exclude-change idName="FK_ROW_LEVEL_POLICY_ROLE" tagName="dropForeignKeyConstraint" />
+    <exclude-change idName="SEC_RESOURCE_POLICY" tagName="dropTable" />
+    <exclude-change idName="SEC_RESOURCE_ROLE" tagName="dropTable" />
+    <exclude-change idName="SEC_ROLE_ASSIGNMENT" tagName="dropTable" />
+    <exclude-change idName="SEC_ROW_LEVEL_POLICY" tagName="dropTable" />
+    <exclude-change idName="SEC_ROW_LEVEL_ROLE" tagName="dropTable" />
+    <exclude-change idName="SEC_USER_SUBSTITUTION" tagName="dropTable" />
+    <exclude-change idName="USER_" tagName="dropTable" />
+    <exclude-change idName="FK_BPM_UGR_ON_USER_GROUP" tagName="dropForeignKeyConstraint" />
+    <exclude-change idName="FK_BPM_UGU_ON_USER_GROUP" tagName="dropForeignKeyConstraint" />
+    <exclude-change idName="BPM_CONTENT_STORAGE" tagName="dropTable" />
+    <exclude-change idName="BPM_USER_GROUP" tagName="dropTable" />
+    <exclude-change idName="BPM_USER_GROUP_ROLE" tagName="dropTable" />
+    <exclude-change idName="BPM_USER_GROUP_USER" tagName="dropTable" />
+    <exclude-change idName="FLOWUI_FILTER_CONFIGURATION" tagName="dropTable" />
+  </component>
+</project>
